@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>License to DeFi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #000000, #1a1a1a, #333333);
+      color: white;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
+    h2 {
+      color: #fff;
+      margin-top: 40px;
+      font-size: 1.4rem;
+    }
+    form {
+      margin-top: 30px;
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      background: #fff;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ddd;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 40px 20px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>License to Digital Finance</h1>
+    <p>Explore how to lawfully use patented DeFi technology. Avoid risk, protect your project, and operate confidently by understanding your licensing options.</p>
+  </header>
+
+  <section>
+    <h2>What Might Be Covered?</h2>
+    <p>Middleton’s patents may apply to features such as:</p>
+    <ul>
+      <li>Peer-to-peer conditional value transfers</li>
+      <li>Smart contracts that escrow and execute based on external data</li>
+      <li>Tokenized asset trades outside a centralized exchange</li>
+      <li>Automated DeFi governance using off-chain data</li>
+    </ul>
+
+    <h2>Why License?</h2>
+    <p>
+      Many DeFi projects unknowingly use protected IP. Licensing ensures:
+      <ul>
+        <li>You avoid future legal exposure</li>
+        <li>You're better positioned for VC or institutional partnerships</li>
+        <li>You contribute to ethical innovation</li>
+      </ul>
+    </p>
+
+    <h2>Request a Licensing Review</h2>
+    <p>Fill out this brief form. Our network will assess if your app overlaps with any known patented DeFi mechanisms and help guide you toward a compliant pathway.</p>
+
+    <form onsubmit="event.preventDefault(); alert('Submitted. A real endpoint will process this.');">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Project or Protocol Name" required>
+      <input type="url" placeholder="GitHub or Website URL (optional)">
+      <textarea rows="5" placeholder="Brief description of what your project does..." required></textarea>
+      <button type="submit">Submit Licensing Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Help Reggie Save Crypto
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

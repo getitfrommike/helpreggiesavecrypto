@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Not Your IP?</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d;
+      color: #eee;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 750px;
+      margin: 0 auto;
+      color: #aaa;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #fff;
+      margin-top: 40px;
+      font-size: 1.5rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 40px 20px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Not Your IP?</h1>
+    <p>Learn how projects unintentionally infringe on patented technology — and how to build in alignment with legal and ethical standards.</p>
+  </header>
+
+  <section>
+    <h2>🧠 What Counts as IP?</h2>
+    <p>
+      Intellectual property includes inventions, processes, methods, and systems that are legally protected. In DeFi, this can mean things like:
+    </p>
+    <ul>
+      <li>Conditional value transfers</li>
+      <li>Smart contracts governed by external data</li>
+      <li>Peer-to-peer trading without intermediaries</li>
+    </ul>
+
+    <h2>⚠️ Common Developer Mistakes</h2>
+    <ul>
+      <li>Forking open-source code that *implements* a patented process</li>
+      <li>Deploying contracts without legal review</li>
+      <li>Assuming “decentralized” means “exempt”</li>
+    </ul>
+
+    <h2>🔍 Are You Infringing?</h2>
+    <p>
+      Ask yourself:
+      <ul>
+        <li>Does your app facilitate escrow-free token swaps?</li>
+        <li>Does it automate contract execution based on off-chain triggers?</li>
+        <li>Does it resemble patented systems like Reggie Middleton’s?</li>
+      </ul>
+      If yes, you may be using protected IP — even if your code is original.
+    </p>
+
+    <h2>✅ How to Build Legally</h2>
+    <ul>
+      <li>Perform an IP audit on your architecture</li>
+      <li>Reach out to patent holders for licensing options</li>
+      <li>Design around claims if possible</li>
+    </ul>
+
+    <h2>🤝 Licensing Is Not Censorship</h2>
+    <p>
+      Licensing allows projects to continue building — legally and confidently. It supports inventors while protecting innovation.
+    </p>
+
+    <h2>🧾 Example: Middleton’s Patents</h2>
+    <p>
+      Reggie Middleton holds multiple U.S. and international patents that affect:
+    </p>
+    <ul>
+      <li>Wallet-to-wallet conditional transactions</li>
+      <li>DeFi lending without banks</li>
+      <li>Smart contract-based agreements</li>
+    </ul>
+    <p>
+      Instead of risking conflict, collaborate lawfully through licensing.
+    </p>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Help Reggie Save Crypto — IP Education
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
